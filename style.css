@@ -1,0 +1,338 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a{
+    list-style: none;
+}
+.header-top{
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.line{
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+    width: 2px;
+    height: 40px;
+    background-color: grey;
+}
+.ru{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+    height: 20px;
+    background-color: rgb(69, 197, 127);
+    border-radius: 4px;
+}
+.usd{  
+    display: flex;
+    flex-direction: column;
+}
+.usd h4{
+    font-style: normal;
+    font-weight: bold;
+}
+.maistra{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 55px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 4px;    
+}
+.maistra1{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 180px;
+    height: 55px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 4px;    
+}
+.kvadrat{
+    width: 55px;
+    height: 55px;
+    background: #DD4053;
+    border-radius: 4px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+}
+.logo{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 68px;
+}
+.calendar{
+    margin: 16px;
+}
+.chats{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+p{
+    margin: 4px;
+}
+h4{
+    margin: 4px;
+    font-size: 15px;
+}
+.mai{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.kvadrat2{
+    width: 55px;
+    height: 55px;
+    background: #4AD295;
+    border-radius: 4px;
+    margin-left: 13px;
+}
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.border-contacti{
+    border-bottom: 2px solid #DD4053;
+}
+.nav ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+}
+ul li:hover > ul{
+    display: inherit;
+}
+ul li ul{
+    z-index: 5;
+    width: 250px;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: -90px;
+}
+ul li ul li{
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 40px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(170, 170, 170) solid 1px;
+    font-size: 12px;
+}
+.poisk{
+    width: 20px;
+    height: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content-top{
+    margin-left: 170px;
+    display: flex;
+    flex-direction: row;
+}
+.glavnaya{
+    color: #969696;
+    font-size: 12px;
+}
+.top-contact{
+    color: black;
+    font-size: 12px;
+}
+.content1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content1 h1{
+    width: 220px;
+}
+.imag{
+    display: flex;
+    flex-direction: row;
+}
+.vopros{
+    height: 250px;
+    width: 220px;
+    margin-left: -50px;
+    margin-top: 60px;
+}
+.fly{
+    margin-right: -50px;
+    width: 250px;
+    height: 320px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.number{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background-color: #DD4053;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+h6{
+    font-size: 22px;
+}
+.number2{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.line2{
+    height: 1px;
+    width: 800px;
+    background-color: #D0D0D0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -30px;
+}
+.text3 img{
+    width: 7px;
+    height: 25px;
+}
+.text4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.text4 img{
+    width: 7px;
+    height: 25px;
+}
+
+.footer-content{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-content img{
+    width: 150px;
+    height: 80px;
+    background: url(./img/logo\ \(1\)\ 2.png);
+}
+.razdel{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+.razdel1{
+    display: flex;
+    flex-direction: column;
+}
+.rezim{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.zagolovok{
+    color: #3E3E3E;
+    font-size: 12px;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.razdel p{
+    margin: 0px;
+    margin-right: 25px;
+}
+.footer-footer{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #3E3E3E80;
+}
+.footer-ikon{
+    display: flex;
+    flex-direction: row;
+}
+.footer-ikon img{
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+.footer-footer-content{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 200px;
+    background-color: #F8F8F8;
+    margin-top: 40px;
+}
